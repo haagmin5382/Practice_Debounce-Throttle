@@ -10,7 +10,9 @@ const Nothing = () => {
     <div className="area">
       <div className="inside" onScroll={scorll}>
         <div className="content"></div>
-        <div className="thing">Just Scroll</div>
+        <div className="thing" id="justScroll">
+          Just Scroll
+        </div>
       </div>
       <div className="count">{count}</div>
     </div>

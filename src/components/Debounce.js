@@ -28,7 +28,9 @@ const Debounce = () => {
     <div className="area">
       <div className="inside" onScroll={debounceScroll(increaseCount, 300)}>
         <div className="content"></div>
-        <div className="thing">Debounce Scroll</div>
+        <div className="thing" id="DebounceScroll">
+          Debounce Scroll
+        </div>
       </div>
       <div className="count">{count}</div>
     </div>

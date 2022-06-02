@@ -20,7 +20,9 @@ const Throttle = () => {
     <div className="area">
       <div className="inside" onScroll={throttleScroll}>
         <div className="content"></div>
-        <div className="thing">Throttle Scroll</div>
+        <div className="thing" id="ThrottleScroll">
+          Throttle Scroll
+        </div>
       </div>
       <div className="count">{count}</div>
     </div>
